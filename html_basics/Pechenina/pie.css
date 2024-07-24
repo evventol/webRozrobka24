@@ -1,0 +1,42 @@
+h1{
+    background-color: aqua;
+}
+p{
+    font-size: larger;
+}
+p{
+    color:rgb(143, 7, 7)
+   
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+li{
+    font-size: larger;
+}
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color:rgb(145, 8, 8)
+}
+.div1{
+    display: flex;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div2{
+    font-weight: 800;
+}
+p{
+    font-weight: 800; 
+}
+.all2{
+    border:solid ;
+    border-color: black;
+}
