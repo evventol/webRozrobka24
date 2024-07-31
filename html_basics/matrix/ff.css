@@ -16,10 +16,12 @@ header {
     display: flex;
     flex-direction: column;
     text-align: left;
+    width: 500px;
+
 }
 .ll {
     font-size:20px;
-    font-weight:bold
+    font-weight:bold ;
 }
 .golo { 
     display:flex;
@@ -29,4 +31,8 @@ header {
     text-align: center;
     justify-content: center;
     width: 500px;
+
+}
+.geo {
+
 }
