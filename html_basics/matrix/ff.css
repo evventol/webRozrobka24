@@ -1,0 +1,32 @@
+.hed {
+    background-color: #696969;
+}
+body {
+    text-align: center;
+}
+
+.da {
+    background-image: linear-gradient(90deg, #E6E6FA,#D8BFD8,#DDA0DD,#EE82EE,#DA70D6,#FF00FF);
+color: black;
+}
+header {
+    background-color: #696969;
+}
+.dani {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.ll {
+    font-size:20px;
+    font-weight:bold
+}
+.golo { 
+    display:flex;
+    flex-direction: row;
+}
+.stag {
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}
