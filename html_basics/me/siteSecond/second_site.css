@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0 ;
+    padding: 0;
+}
+.main{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin: 0;
+    font-size: 60px;
+}
+.mainContext{
+    background-color: #FFFFFF;
+    padding: 10px;
+    
+}
+.navigationBar{
+    font-size: 20px;
+    text-align: center;
+    background-color: #414040;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.item{
+    font-size: 20px;
+}
+.title{
+    font-size: 25px;
+}
+.input-item{
+    margin:5px;
+    padding:4px;
+}
