@@ -93,7 +93,7 @@
 
 **Приклад використання**:
 ```html
-<img src="image.jpg" alt="Description of image">
+<img src="image.jpg" alt="<Description of image>">
 ```
 
 ######################
