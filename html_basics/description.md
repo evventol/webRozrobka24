@@ -195,5 +195,9 @@
 
 **Приклад використання**:
 ```html
-<p class="class-name">This is a paragraph with a class</p>
+<p class="nazva">This is a paragraph with a class</p>
 ```
+
+css:
+
+.nazva
