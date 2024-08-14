@@ -25,9 +25,39 @@ if (score >= 260) {
     console.log("Sprobui she raz")
 }
 
-const userlnput = prompt("Vedite vashe imya:","");
-if (userlnput.length > 0){
-    alert(userlnput);
-} else {
-    alert("No name");
+// const userlnput = prompt("Vedite vashe imya:","");
+// if (userlnput.length > 0){
+//     alert(userlnput);
+// } else {
+//     alert("No name");
+// }
+
+// for (let d = 0; d < 100; d++){
+//     console.log("Hello bro");
+// }
+
+
+let a = prompt("Name"," ")
+while(a === null || a.length === 0){
+    alert(noname);
+    a = prompt("a"," ");
 }
+
+let age = prompt("age"," ")
+while(age === null || age.length === 0){
+    alert(noname);
+    age = prompt("age"," ");
+}
+
+
+function sayHello(name,age) {
+    console.log("Privet, " + name,age + "!")
+}
+
+sayHello(a,age)
+
+const button = document.getElementById("myButton");
+
+button.addEventListener("click",function() {
+    alert("btton clicked!");
+});
