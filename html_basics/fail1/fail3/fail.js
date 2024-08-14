@@ -32,9 +32,27 @@ if(score >=18) {
 } else if(score >= 15){
     console.log("Добре");
 }
-const userlput =prompt("ведіеь ваше ім'я:","");
-if (userlput.length > 0) {
-    alert(userlput)
-} else {
-    alert("No name");
+// const userlput =prompt("ведіеь ваше ім'я:","");
+// if (userlput.length > 0) {
+//     alert(userlput)
+// } else {
+//     alert("No name");
+// }
+for (let i =0; i <10; i++) {
+    console.log("це повідомленя буде показано 10 разів.");
 }
+let a = prompt( "nema","nema")
+while (a==null||a.length===0){
+    alert("no name" )
+    a=prompt("nema","nema")
+}
+function sayhello(Sasha,age){
+    console.log("Wsp,"+ age+" "+Sasha + "!");
+}
+
+sayhello("Egor","Age")
+const button = document.getElementById("myButton");
+
+button.addEventListener("click",function(){
+alert("Buttonclicked!");
+}) ;
