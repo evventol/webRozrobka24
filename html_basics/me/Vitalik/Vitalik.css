@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #a9e8f3;
+    background-color: #88abf5;
     margin-bottom: 10px;
 }
 
@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: #f2f3a9;
+    background-color: #92d368;
     
 }
 .photos{
@@ -35,7 +35,7 @@ body{
     display: flex;
     flex-direction: column;
     flex:3;    
-    background-color: #a9e8f39f;
+
     margin: 10px;
     padding: 80px;
     font-size: 70px;
@@ -43,15 +43,6 @@ body{
 }
 .img{
     border-radius: 50%;
-}
-
-.box1{
-    display:flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-
-    font-size: 40px;
 }
 .myMood{
     display: flex;
@@ -65,12 +56,34 @@ body{
     background-color: #ffffff;
     border-radius: 50%;
 }
-.box2{
+.box1{
     display:flex;
+    flex:1;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
 
+    font-size: 40px;
+}
+.space_between{
+    display: flex;
+    flex:6;
+    background-color: #92d368;
+}
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center; /* выравнивание по горизонтали */
+    align-items: center; /* выравнивание по вертикали */
+    flex-direction: row; /* расположение элементов в строку (горизонтально) */
+}
+.circle{
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
 }
 .one{
 
@@ -84,13 +97,19 @@ body{
 
     background-color: #a03cfd;
 }
-.circle{
+.box3{
+    background-color: #c088f5;
+}
+.row_photosMood{
+    display: flex;
+    flex-direction: row;  /* горизонтальное расположение элементов */
+    justify-content: space-between;  /* равномерное расстояние между картинками */
+    align-items: center;  /* выравнивание по вертикали */
+}
 
-    margin: 5px;
-    padding: 5px;
-    border-radius: 50%;
-    width: 50%;
-    height: 50%;
+.itemsingorizontal{
+    width: 33%;  /* задайте нужную ширину картинок */
+    height: auto;  /* сохраняйте пропорции */
 }
 
 .reviews_ghatGPT{
@@ -102,7 +121,6 @@ body{
 }
 
 .visitorsReaction{
-
     margin: 10px;
     padding: 10px;
     background-color: #f74f4f;
