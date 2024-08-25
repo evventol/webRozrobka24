@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     padding: 10px;
     background-color: #92d368;
+    margin-bottom: 10px;
     
 }
 .photos{
@@ -32,14 +33,12 @@ body{
     
 }
 .text{
-    display: flex;
-    flex-direction: column;
-    flex:3;    
-
     margin: 10px;
-    padding: 80px;
-    font-size: 70px;
-    font-family: cursive;
+    padding: 10px;
+    font-family:
+    Lucida Console,
+    Courier,
+    monospace;
 }
 .img{
     border-radius: 50%;
@@ -52,18 +51,9 @@ body{
 .aboutMe_block{
     margin: 5px;
     padding: 5px;
-    height: 60px;
+    /* height: 60px; */
     background-color: #ffffff;
     border-radius: 50%;
-}
-.box1{
-    display:flex;
-    flex:1;
-    flex-direction: column;
-    margin: 10px;
-    padding: 10px;
-
-    font-size: 40px;
 }
 .space_between{
     display: flex;
@@ -73,10 +63,11 @@ body{
 .container {
     display: flex;
     flex: 1;
-    justify-content: center; /* выравнивание по горизонтали */
+    justify-content: center; 
     align-items: center; /* выравнивание по вертикали */
-    flex-direction: row; /* расположение элементов в строку (горизонтально) */
+    flex-direction: row; 
 }
+
 .circle{
     
     margin: 5px;
@@ -97,14 +88,31 @@ body{
 
     background-color: #a03cfd;
 }
+
+
+
+.box1{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+    font-size: 40px;
+}
+
 .box3{
+    display: flex;
+    flex-direction: column;
+    flex:3; 
     background-color: #c088f5;
 }
 .row_photosMood{
+    padding: 10px;
     display: flex;
     flex-direction: row;  /* горизонтальное расположение элементов */
     justify-content: space-between;  /* равномерное расстояние между картинками */
-    align-items: center;  /* выравнивание по вертикали */
+    align-items: center;  выравнивание по вертикали
 }
 
 .itemsingorizontal{
