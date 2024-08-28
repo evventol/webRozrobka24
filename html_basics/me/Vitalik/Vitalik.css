@@ -15,7 +15,16 @@ body{
     background-color: #88abf5;
     margin-bottom: 10px;
 }
+.buttomAmount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-circle{
+    border: 4mm ridge rgba(50, 129, 220, 0.6);
 
+}
 .secondBlock{
     display: flex;
     flex-direction: column;
@@ -24,21 +33,27 @@ body{
     margin-bottom: 10px;
     
 }
+
 .photos{
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: column;
     margin: 10px;
     padding: 10px;
-    
+    justify-content: center;
+}
+.textUp{
+    padding: 200px;
 }
 .text{
     margin: 10px;
-    padding: 10px;
     font-family:
     Lucida Console,
     Courier,
     monospace;
+}
+.marginPL{
+    margin: 10px;
 }
 .img{
     border-radius: 50%;
@@ -49,12 +64,48 @@ body{
     justify-content: space-between;
 }
 .aboutMe_block{
-    margin: 5px;
-    padding: 5px;
-    /* height: 60px; */
+    /* margin: 5px; */
+    padding: 10px;
+    width: 100%;
     background-color: #ffffff;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(250, 220, 51);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(220, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+
+
+
+
 .space_between{
     display: flex;
     flex:6;
@@ -68,7 +119,7 @@ body{
     flex-direction: row; 
 }
 
-.circle{
+.colDiv{
     
     margin: 5px;
     padding: 5px;
@@ -112,7 +163,7 @@ body{
     display: flex;
     flex-direction: row;  /* горизонтальное расположение элементов */
     justify-content: space-between;  /* равномерное расстояние между картинками */
-    align-items: center;  выравнивание по вертикали
+    align-items: center; 
 }
 
 .itemsingorizontal{
@@ -126,14 +177,85 @@ body{
     font-family: system-ui;
     text-align: left;
     font-size: 30px;
+    /* border: 1px solid #245488; */
+    padding: 20px;
+    /* width: 300px; */
 }
-
+P {
+    text-indent: 25px;
+}
 .visitorsReaction{
+    display: flex;
+    justify-content: center;
     margin: 10px;
     padding: 10px;
     background-color: #f74f4f;
 }
-.input-item{
-    margin:5px;
-    padding:4px;
-}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .parent {
+    align-content: center;
+    max-width: 640px;
+    border: 1px solid #999;
+    height: 80px;
+  }
+  
+  .drop {
+    overflow-y: auto;
+    height: 800px;
+    visibility: hidden;
+    transition: 0.14s ease;
+  }
+  
+  .parent:hover {
+    height: auto;
+  }
+  
+  .parent:hover .drop {
+    visibility: visible;
+  }
+  
+  .moods {
+    height: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #999;
+  }
+  
+  .colors .drop-item {
+    margin-top: 5px;
+  }
+  
+  .drop-item {
+    height: 100%;
+    cursor: pointer;
+    padding: 5px 5px 0 20px;
+  }
+  
+  .drop-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  .drop-item_flex {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .drop-item_flex img {
+    margin-right: 20px;
+  }

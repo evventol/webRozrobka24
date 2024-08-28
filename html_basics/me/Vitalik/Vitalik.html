@@ -11,10 +11,10 @@
         >
     <link rel="stylesheet" type="text/css" href = "Vitalik.css" >
     <!-- Bootstrap CSS -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap JS and Popper.js -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
@@ -24,35 +24,41 @@
             <img src ="photos/tg.jpg" class="img" >
         </div>
 
-        <div class="text">
-            <p><font size=45px><b>Юрко Віталік </b>Вадимович</font></p>
-            <!-- <p><font size=45px>Найкращий лічильник дітей</font></p> -->
+        <div class="text textUp">
+            <p style="font-size: 60px"><b>Юрко Віталік </b>Вадимович</p>
+            <p style="font-size: 60px">Найкращий лічильник дітей</p>
+            <div class="buttomAmount">
+                <label for="amount" class="marginPL">Quantity:</label>
+                <!-- <input type="text" onchange="alert(this.value)"> -->
+                <!-- <input type="button" value="Click me, master"> -->
+                <!-- <div id="button-circle" class="button-circle" onclick="counter++"> </div> -->
+                <input type="number" id="counterInput" value=0 readonly class="marginPL">
+                <button id="buttonCircle" class="button-circle" class="marginPL">Click me, master</button>
+                
+                
+                <p class="marginPL"> Задайте кіл-ть дітей, яке хочете пожертувати))</p>
+            </div>
         </div>
     </div>
-    
     <div class = "secondBlock">
         <div class = "myMood">
         <div class="box1">
-            <p class = "text aboutMe_block">About Me</p>
+            <button id="buttonAboutMe" class="favorite styled text aboutMe_block" type="button">About Me</button>
         </div>
         <div class = "space_between"></div>
         <div class="container">
-            <div class="circle one"></div>
-            <div class="circle two"></div>
-            <div class="circle three"></div>
+            <div class="colDiv one"></div>
+            <div class="colDiv two"></div>
+            <div class="colDiv three"></div>
         </div></div>
         <div class = "reviews_ghatGPT">
-            <p>Мене звати Віталік, мені 23 роки, і я завжди прагну поєднувати 
+            <p>     Мене звати Віталік, мені 23 роки, і я завжди прагну поєднувати 
                 серйозний підхід до життя з добротою та турботою про інших. Мене 
                 захоплює робота з дітьми, і мій педагогічний досвід став важливою 
                 частиною мого життя. Я закінчив 
                 університет, де здобув освіту з фізики, що допомогло мені розвинути 
                 аналітичний підхід і глибше зануритися у точні науки.</p>
-            <!-- <p >Він заміжній, що підкреслює його серйозне ставлення до відносин та готовність брати на 
-                себе відповідальність. Працюючи вожатим, Віталік проявив свою відданість вихованню та 
-                розвитку дітей, що говорить про його терпіння, організованість та вміння працювати в 
-                команді.</p> -->
-            <p >Любов до дітей та досвід у педагогіці навчили мене бути чутливим до 
+            <p >    Любов до дітей та досвід у педагогіці навчили мене бути чутливим до 
                 їхніх потреб і вміти ефективно вирішувати різні ситуації. Я ціную 
                 можливість взаємодіяти з молодим поколінням, допомагати їм розвиватися
                  та підтримувати їх на шляху до знань. Поєднання інтелектуальної 
@@ -62,48 +68,79 @@
     </div>
 
     <div class = "box3">
-        <p class="text"><font size="45">My Mood</font></p>
+        <p class="text" style="font-size: 45px">My Mood</p>
         <div class ="row_photosMood">
         <img src="photos/green (3).jpg" class="itemsingorizontal">
         <img src="photos/green (2).jpg" class="itemsingorizontal">
         <img src="photos/green (1).jpg" class="itemsingorizontal">   </div>
     </div>
     <div class = "visitorsReaction">
+          <div class="parent">
+            <div class="moods">
+              <span>Choose my emotional state</span>
+            </div>
+          
+            <div class="drop">
+          
+              <div class="drop-item flex1">
+                <div class="drop-item_flex flex1">
+                  <img src="photos/curcle1 (1).jpg" alt="" id="item1">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item flex2">
+                <div class="drop-item_flex">
+                  <img src="photos/curcle1 (2).jpg" alt="" id="item2">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item flex3">
+                <div class="drop-item_flex">
+                  <img src="photos/curcle1 (3).jpg" alt="" id="item3">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item flex4">
+                <div class="drop-item_flex">
+                  <img src="photos/curcle1 (4).jpg" alt="" id="item4">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item flex5">
+                <div class="drop-item_flex">
+                  <img src="photos/curcle1 (5).jpg" alt="" id="item5">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item  flex6">
+                <div class="drop-item_flex">
+                  <img src="photos/curcle1 (6).jpg" alt="" id="item6">
+                  
+                </div>
+              </div>
+          
+              <div class="drop-item flex7">
+                <div class="drop-item_flex ">
+                  <img src="photos/curcle1 (7).jpg" alt="" id="item7">
+                  
+                </div>
+              </div>
+              <div class="drop-item flex8">
+                <div class="drop-item_flex ">
+                  <img src="photos/curcle1 (8).jpg" alt="" id="item8">
+                  
+                </div>
+              </div>
+          
+            </div><!-- drop -->
+          </div><!-- parent-->
 
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              My emotional state
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-              <li><a class="dropdown-item" href="#" id="item1"><img src = "photos/curcle1 (1).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item2"><img src = "photos/curcle1 (2).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item3"><img src = "photos/curcle1 (3).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item4"><img src = "photos/curcle1 (4).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item5"><img src = "photos/curcle1 (5).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item6"><img src = "photos/curcle1 (6).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item7"><img src = "photos/curcle1 (7).jpg"></a></li>
-              <li><a class="dropdown-item" href="#" id="item8"><img src = "photos/curcle1 (8).jpg"></a></li>
-                <!-- <form action="/submit" method="post">
-            <div class="input-item"><label for="name">Who:</label>
-                <input type = "text" id="name" name="name"/></div>
-            <div class="input-item"><label for="category">Vatalik is:</label>
-                <select id="categoty" name="category">
-                  <option value="">Select</option>
-                  <option value="intelligent">Intelligent</option>
-                  <option value="beautiful">Beautiful</option>
-                  <option value="patient">Parient</option>
-                  <option value="amazing">Amazing</option>
-                  <option value="energetic">energatic</option>
-                </select>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </div>
-          </form> -->
-            </ul>
-          </div>
-        
+          <div class="result"></div>
     </div>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="Vitalik.js"></script>
