@@ -10,8 +10,15 @@
         type="image/x-icon"
         >
     <link rel="stylesheet" type="text/css" href = "Vitalik.css" >
+    <!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
+    
     <div class = "allAboutMe">
         <div class = "photos"> 
             <img src ="photos/tg.jpg" class="img" >
@@ -62,7 +69,21 @@
         <img src="photos/green (1).jpg" class="itemsingorizontal">   </div>
     </div>
     <div class = "visitorsReaction">
-        <!-- <form action="/submit" method="post">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My emotional state
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+              <li><a class="dropdown-item" href="#" id="item1"><img src = "photos/curcle1 (1).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item2"><img src = "photos/curcle1 (2).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item3"><img src = "photos/curcle1 (3).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item4"><img src = "photos/curcle1 (4).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item5"><img src = "photos/curcle1 (5).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item6"><img src = "photos/curcle1 (6).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item7"><img src = "photos/curcle1 (7).jpg"></a></li>
+              <li><a class="dropdown-item" href="#" id="item8"><img src = "photos/curcle1 (8).jpg"></a></li>
+                <!-- <form action="/submit" method="post">
             <div class="input-item"><label for="name">Who:</label>
                 <input type = "text" id="name" name="name"/></div>
             <div class="input-item"><label for="category">Vatalik is:</label>
@@ -80,8 +101,11 @@
                 <button type="reset">Reset</button>
             </div>
           </form> -->
+            </ul>
+          </div>
+        
     </div>
-    
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="Vitalik.js"></script>
 </body>
 
