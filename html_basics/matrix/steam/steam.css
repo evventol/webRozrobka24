@@ -27,6 +27,7 @@ p {
     background-color:#2A475E;
     padding: 200px;
     margin: -5px;
+    
 }
 .menu {
     display: flex;
@@ -42,4 +43,60 @@ p {
     color: #a4b3c4;
     font-size: 12px;
     margin: -8px;
+}
+.nedawno {
+    color: #536f86;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: bolder;
+    margin: -8px;
+}
+.poslednee{
+    color: #7A8B9D;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 550;
+    margin: 5px;
+    padding: 5px;
+
+}
+.tter_header {
+    color: #536f86;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-weight: bolder;
+}
+.dr {
+    display: block;
+    width: fit-content;
+    color: #7A8B9D;
+    font-size: 12px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-weight: 550;
+
+}
+.opisanie {
+    background-color: #23262E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.bessp{
+    font-size: 10px;
+
+}
+.dost{
+    font-family: "Motiva Sans", Sans-serif;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    background-color:#2A475E
+
 }
